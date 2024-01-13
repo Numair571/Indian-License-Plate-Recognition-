@@ -7,7 +7,8 @@ import pandas as pd
 import time
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-image = cv2.imread('car.jpeg')
+image = cv2.imread('./test_images/car1.jpeg')
+
 
 image = imutils.resize(image, width=500)
 
